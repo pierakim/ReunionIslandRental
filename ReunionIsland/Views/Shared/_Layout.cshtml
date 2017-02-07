@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../Content/img/comput.png">
+    <title>Pierakim | Website creation | Brisbane, Aus</title>
+    @*CSS Bundle*@
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    @Styles.Render("~/bundles/css")
+
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div>
+                <a class="effectMenu navbar-brand" href="@Url.Action("Index", "Home")">
+                    <i class="fa fa-laptop" aria-hidden="true" style="color: #9d9d9d"></i>Ile de la reunion
+                </a>
+            </div>
+
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="effectMenu" href="#Acceuil">Accueil</a>
+                </li>
+                <li>
+                    <a class="effectMenu" href="#ScrollToServices">Logement</a>
+                </li>
+                <li>
+                    <a class="effectMenu" href="#ScrollToContact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div>
+    @RenderBody()
+    <hr/>
+    <footer>
+        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+    </footer>
+</div>
+
+@*JS Bundle*@
+@Scripts.Render("~/bundles/js")
+
+</body>
+</html>
+
+
+@***************@
+@*Effect Script*@
+@***************@
+<script>
+    //ON HOVER
+    function animationHover(element, animation) {
+        element = $(element);
+        element.hover(
+            function() {
+                element.addClass('animated ' + animation);
+            },
+            function() {
+                //wait for animation to finish before removing classes
+                window.setTimeout(function() {
+                        element.removeClass('animated ' + animation);
+                    },
+                    2000);
+            });
+    }
+
+    //ON READY
+    function animationIntro(element, animation) {
+        element = $(element);
+        element.addClass('animated ' + animation);
+        window.setTimeout(function() {
+                element.removeClass('animated ' + animation);
+            },
+            2000);
+    }
+
+    //DOCUMENT.READY
+    //effect - Ready for menu
+    $(document)
+        .ready(function() {
+            $('.effectMenu')
+                .each(function() {
+                    animationIntro(this, 'slideInDown');
+                });
+        });
+    //effect - Ready for big title
+    $(document)
+        .ready(function() {
+            $('.effectBigTitle')
+                .each(function() {
+                    animationIntro(this, 'slideInDown');
+                });
+        });
+    //effect - Ready for small title
+    $(document)
+        .ready(function() {
+            $('.effectSmallTitle')
+                .each(function() {
+                    animationIntro(this, 'slideInDown');
+                });
+        });
+    //effect - Ready for left button
+    $(document)
+        .ready(function() {
+            $('.effectLeftButton')
+                .each(function() {
+                    animationIntro(this, 'slideInLeft');
+                });
+        });
+    //effect - Ready for right button
+    $(document)
+        .ready(function() {
+            $('.effectRightButton')
+                .each(function() {
+                    animationIntro(this, 'slideInRight');
+                });
+        });
+    //effect - Ready for central button
+    $(document)
+        .ready(function() {
+            $('.effectCentralButton')
+                .each(function() {
+                    animationIntro(this, 'slideInUp');
+                });
+        });
+    //effect - Ready for pagination
+    $(document)
+        .ready(function() {
+            $('.effectPagination')
+                .each(function() {
+                    animationIntro(this, 'slideInUp');
+                });
+        });
+    //HOVER
+    //effect - Hover for Menu
+    $(document)
+        .ready(function() {
+            $('.effectMenu')
+                .each(function() {
+                    animationHover(this, 'swing');
+                });
+        });
+    //effect - Hover for Big Title
+    $(document)
+        .ready(function() {
+            $('.effectBigTitle')
+                .each(function() {
+                    animationHover(this, 'pulse');
+                });
+        });
+    //effect - Hover for Small Title
+    $(document)
+        .ready(function() {
+            $('.effectSmallTitle')
+                .each(function() {
+                    animationHover(this, 'pulse');
+                });
+        });
+    //effect - Hover for Small Title
+    $(document)
+        .ready(function() {
+            $('.effectLeftButton')
+                .each(function() {
+                    animationHover(this, 'pulse');
+                });
+        });
+    //effect - Hover for Small Title
+    $(document)
+        .ready(function() {
+            $('.effectRightButton')
+                .each(function() {
+                    animationHover(this, 'pulse');
+                });
+        });
+    //effect - Hover for Small Title
+    $(document)
+        .ready(function() {
+            $('.effectCentralButton')
+                .each(function() {
+                    animationHover(this, 'pulse');
+                });
+        });
+</script>
+
+@*MODAL POP UP*@
+<script>
+    $(document)
+        .ready(function() {
+            // Show Update Success modal popup
+            if ($('#showSuccessMessage').text().length > 0) {
+                $('#successModal').modal({ backdrop: 'static' });
+            }
+        });
+</script>
+
+@*SPINNER LOADING*@
+<script>
+    $(function () {
+        $("#submitContact").click(function () {
+            debugger;
+            if ($("#frmContact").valid()) {
+                $("#loading").fadeIn();
+                var opts = {
+                    lines: 12, // The number of lines to draw
+                    length: 7, // The length of each line
+                    width: 4, // The line thickness
+                    radius: 10, // The radius of the inner circle
+                    color: '#000', // #rgb or #rrggbb
+                    speed: 1, // Rounds per second
+                    trail: 60, // Afterglow percentage
+                    shadow: false, // Whether to render a shadow
+                    hwaccel: false // Whether to use hardware acceleration
+                };
+                var target = document.getElementById('loading');
+                var spinner = new Spinner(opts).spin(target);
+            }
+        });
+    });
+</script>
+
+@**********************************************@
+@*Smoothly auto scroll from section to section*@
+@**********************************************@
+<script>
+    $(function () {
+        $('a[href*="#ScrollTo"]:not([href="#"])').click(function () {
+            debugger;
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    var header_height = $('.navbar .container').outerHeight();
+                    $('html, body').animate({
+                        //scrollTop: target.offset().top - header_height
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+    $(function () {
+        $('a[href="#About"]:not([href="#"])').click(function () {
+            debugger;
+            $('.effectBigTitle')
+                .each(function () {
+                    animationIntro(this, 'zoomInDown');
+                });
+            $('.effectSmallTitle')
+                .each(function () {
+                    animationIntro(this, 'zoomInUp');
+                });
+        });
+    });
+</script>

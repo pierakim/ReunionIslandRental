@@ -1,0 +1,138 @@
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\ApplicationInsights.config
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\csc.exe
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\csc.exe.config
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\csc.rsp
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\csi.exe
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\csi.rsp
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\System.AppContext.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\vbc.exe
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\vbc.exe.config
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\vbc.rsp
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\VBCSCompiler.exe
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\ReunionIsland.Web.dll.config
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\ReunionIsland.Web.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\ReunionIsland.Web.pdb
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Antlr3.Runtime.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.AI.Web.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.ApplicationInsights.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Newtonsoft.Json.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\ReunionIsland.Model.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Helpers.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Mvc.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Optimization.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Razor.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Webpages.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Webpages.Razor.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\WebGrease.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\ReunionIsland.Model.pdb
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Antlr3.Runtime.pdb
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.AI.Web.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.ApplicationInsights.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\Newtonsoft.Json.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Optimization.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Razor.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Webpages.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Webpages.Razor.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Helpers.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\bin\System.Web.Mvc.xml
+C:\Users\2543\Desktop\Presentation - Copy\presentation\obj\Debug\ReunionIsland.Web.csprojResolveAssemblyReference.cache
+C:\Users\2543\Desktop\Presentation - Copy\presentation\obj\Debug\ReunionIsland.Web.dll
+C:\Users\2543\Desktop\Presentation - Copy\presentation\obj\Debug\ReunionIsland.Web.pdb
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\ApplicationInsights.config
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\csc.exe
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\csc.exe.config
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\csc.rsp
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\csi.exe
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\csi.rsp
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\System.AppContext.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\vbc.exe
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\vbc.exe.config
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\vbc.rsp
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\VBCSCompiler.exe
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\ReunionIsland.Web.dll.config
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\ReunionIsland.Web.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\ReunionIsland.Web.pdb
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Antlr3.Runtime.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.AI.Web.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.ApplicationInsights.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Newtonsoft.Json.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\ReunionIsland.Model.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Helpers.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Mvc.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Optimization.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Razor.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Webpages.Deployment.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Webpages.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Webpages.Razor.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\WebGrease.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\ReunionIsland.Model.pdb
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Antlr3.Runtime.pdb
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.AI.Web.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.ApplicationInsights.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\Newtonsoft.Json.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Optimization.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Razor.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Webpages.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Webpages.Deployment.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Webpages.Razor.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Helpers.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\bin\System.Web.Mvc.xml
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\obj\Debug\ReunionIsland.Web.csprojResolveAssemblyReference.cache
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\obj\Debug\ReunionIsland.Web.dll
+C:\Users\2543\Desktop\ReunionIsland\ReunionIsland\obj\Debug\ReunionIsland.Web.pdb

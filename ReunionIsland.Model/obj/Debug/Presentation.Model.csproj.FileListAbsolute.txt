@@ -1,0 +1,4 @@
+C:\Users\2543\Desktop\Presentation\Presentation.Model\bin\Debug\Presentation.Model.dll
+C:\Users\2543\Desktop\Presentation\Presentation.Model\bin\Debug\Presentation.Model.pdb
+C:\Users\2543\Desktop\Presentation\Presentation.Model\obj\Debug\Presentation.Model.dll
+C:\Users\2543\Desktop\Presentation\Presentation.Model\obj\Debug\Presentation.Model.pdb
