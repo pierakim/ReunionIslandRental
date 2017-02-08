@@ -143,6 +143,8 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\img\banner-bg.jpg" />
+    <Content Include="Content\img\bcg_slide-1.jpg" />
+    <Content Include="Content\img\bcg_slide-3.jpg" />
     <Content Include="Content\img\bg-clouds.png" />
     <Content Include="Content\img\business.png" />
     <Content Include="Content\img\cartoon_image.png" />
@@ -161,6 +163,7 @@
     <Content Include="Content\img\Paris-intro_02.jpg" />
     <Content Include="Content\img\phones.png" />
     <Content Include="Content\img\ReunionIsland.jpg" />
+    <Content Include="Content\img\ReunionIsland2.jpg" />
     <Content Include="Content\img\twitter-128.png" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\accordion.css" />
@@ -236,6 +239,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\skrollr.js" />
     <Content Include="Scripts\spin.js" />
     <Content Include="Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />

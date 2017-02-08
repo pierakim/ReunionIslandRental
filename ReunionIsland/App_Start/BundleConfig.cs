@@ -14,7 +14,8 @@ namespace ReunionIsland.Web
                                                 "~/Scripts/bootstrap.min.js",
                                                 "~/Scripts/jquery.validate.js",
                                                 "~/Scripts/jquery.validate.unobtrusive.js",
-                                                "~/Scripts/spin.js");
+                                                "~/Scripts/spin.js",
+                                                "~/Scripts/skrollr.js");
             bundles.Add(jsBundles);
 
             //CSS Bundle
