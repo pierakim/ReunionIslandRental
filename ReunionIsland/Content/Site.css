@@ -31,7 +31,7 @@ body, html {
 }
 
 .parallaxDown {
-    padding: 30%;
+    padding-top: 450px;
     /* The image used */
     background-image: linear-gradient(to bottom, rgba(134, 158, 255, 0.5) 0%, rgba(175, 252, 133, 0.5) 100%), 
         url(../Content/img/ReunionIsland2.jpg);
@@ -69,8 +69,54 @@ body, html {
     background: transparent;
     text-align: center;
     width: 100%;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(220, 230, 106, 0.6);
 }
+
+
+.categorieContainer {
+    padding: 180px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+
+
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 650px;
+  height: 500px;
+  padding: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}
+
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+#slideshow img {
+  max-width:100%;
+  max-height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*OLD (But gold....)*/
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
@@ -162,10 +208,7 @@ h6 {
     letter-spacing: 2px;
 }
 
-.content-section-a {
-    padding: 50px 0;
-    background-color: #8EC1DA;
-}
+
 
 .content-section-b {
     padding: 50px 0;
@@ -186,7 +229,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../Content/img/banner-bg.jpg) no-repeat center center;
+    background: url(../Content/img/contact-us-panel.jpg) no-repeat center center;
     background-size: cover;
 }
 

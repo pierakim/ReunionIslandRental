@@ -202,16 +202,29 @@
 @*SKROLLR*@
 <script>
     $(document)
-        .ready(( function( $ ) {
+        .ready((function($) {
             // Init Skrollr
             var s = skrollr.init({
-                render: function (data) {
+                render: function(data) {
                     //Debugging - Log the current scroll position.
                     //console.log(data.curTop);
                 }
 
             });
-        } )( jQuery ));
+        })(jQuery));
+</script>
+
+<script>
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function () {
+        $('#slideshow > div:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slideshow');
+    }, 3000);
 </script>
 
 @*MODAL POP UP*@
