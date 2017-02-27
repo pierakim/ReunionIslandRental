@@ -9,13 +9,15 @@ namespace ReunionIsland.Web
             //JS Bundle
             var jsBundles = new ScriptBundle("~/bundles/js").Include(
                                                 "~/Scripts/jquery-{version}.js",
-                                                "~/Scripts/jquery-ui-{version}.js",
-                                                "~/Scripts/modernizr-{version}.js",
+                                                "~/Scripts/JQueryMigrate.js",
+                                                //"~/Scripts/jquery-ui-{version}.js",
+                                                //"~/Scripts/modernizr-{version}.js",
                                                 "~/Scripts/bootstrap.min.js",
                                                 "~/Scripts/jquery.validate.js",
                                                 "~/Scripts/jquery.validate.unobtrusive.js",
                                                 "~/Scripts/spin.js",
-                                                "~/Scripts/skrollr.js");
+                                                //"~/Scripts/skrollr.js",
+                                                "~/Scripts/stellar.js");
             bundles.Add(jsBundles);
 
             //CSS Bundle

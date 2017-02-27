@@ -4,11 +4,10 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../../Content/img/comput.png">
-    <title>Pierakim | Website creation | Brisbane, Aus</title>
+    <title>La Réunion | Location Saisonnière</title>
     @*CSS Bundle*@
     <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     @Styles.Render("~/bundles/css")
 
@@ -17,20 +16,15 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
             <div>
                 <a class="effectMenu navbar-brand" href="@Url.Action("Index", "Home")">
-                    <i class="fa fa-laptop" aria-hidden="true" style="color: #9d9d9d"></i>Ile de la reunion
+                    <i class="fa fa-sun-o" aria-hidden="true"></i> La Réunion
                 </a>
             </div>
 
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a class="effectMenu" href="#Acceuil">Accueil</a>
@@ -46,13 +40,11 @@
     </div>
 </div>
 
-<div>
-    @RenderBody()
-    <hr/>
-    <footer>
-        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-    </footer>
-</div>
+@RenderBody()
+<hr/>
+<footer>
+    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+</footer>
 
 @*JS Bundle*@
 @Scripts.Render("~/bundles/js")
@@ -200,7 +192,7 @@
 </script>
 
 @*SKROLLR*@
-<script>
+@*<script>
     $(document)
         .ready((function($) {
             // Init Skrollr
@@ -212,7 +204,20 @@
 
             });
         })(jQuery));
+</script>*@
+
+@*STELLAR*@
+<script>
+    $(document)
+        .ready(function() {
+            $.stellar({
+                horizontalScrolling: false,
+                responsive: true
+            });
+        });
 </script>
+
+
 
 <script>
     $("#slideshow > div:gt(0)").hide();
