@@ -3,11 +3,13 @@ height: 100%;
 width: 100%;
 }
 
-
+/**************/
 /*Begin Navbar*/
+/**************/
 .navbar {
     font-family: 'Lobster', cursive;
     color: white;
+    margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -28,26 +30,24 @@ width: 100%;
 .navbar-inverse .navbar-brand {
     color: white;
 }
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: relative;
+}
+/**************/
 /*End - Navbar*/
+/**************/
 
-
+/***********************/
 /*Begin - Welcome Panel*/
+/***********************/
 #welcomePanel {
-    /*background: url('/Content/img/ReunionIsland.jpg');
-    color:#fff;
-    min-height : 100%;
-    width : 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
     background: linear-gradient( rgba(255, 255, 153, 0.5), rgba(77, 121, 255, 0.5)), url('/Content/img/ReunionIsland.jpg') no-repeat;
     background-size: cover;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #welcomePanel .container{
@@ -61,17 +61,24 @@ width: 100%;
 }
 
 #welcomePanel .container h2{
+    border: 2px solid #000000;
     margin: 0 auto;
     font-family: 'Lobster', cursive;
     font-size: 65px;
     color: #000000;
     text-align: center;
+    padding: 15px 35px;
 }
+/*********************/
 /*End - Welcome Panel*/
+/*********************/
 
+/*********************************/
 /*Begin - Brief description panel*/
+/*********************************/
 #briefDescription {
-   background: url('/Content/img/briefDescriptionPanel-2.jpg') no-repeat;
+   background: url('/Content/img/WoodBackground3.jpg') no-repeat;
+   background-size: cover;
 }
 
 #briefDescription .container{
@@ -126,19 +133,14 @@ width: 100%;
 #para {
     padding-bottom: 30px;
 }
+/*******************************/
 /*End - Brief description panel*/
+/*******************************/
 
+/**************************/
 /*Start - Facilities panel*/
+/**************************/
 #facilities {
-    /*background: url('/Content/img/reunionIslandNight.jpg') no-repeat center center fixed;
-    color:#fff;
-    height : 100%;
-    width : 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-
     background: linear-gradient( rgba(255, 128, 128, 0.3), rgba(255, 255, 153, 0.3),rgba(179, 255, 179, 0.3)), url('/Content/img/reunionIslandNight.jpg') no-repeat;
     background-size: cover;
     height: 100%;
@@ -197,35 +199,53 @@ width: 100%;
 .caseCategorieEmpty {
     height: 125px;
 }
+/************************/
 /*End - Facilities panel*/
+/************************/
 
 
 .field-validation-error{
     color: white;
 }
 
+/********************************/
 /*Begin - Photo Carroussel Panel*/
+/********************************/
+#photoCarroussel{
+    background: url(../Content/img/WoodBackground2.jpg) no-repeat;
+    background-size: cover;
+}
+
 #photoCarroussel .container{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
+    width: 100%;
+}
+
+#galleryParagraph{
+    border: 0.1px solid #000000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #galleryParagraph h2{
     margin: 0 auto;
     font-family: 'Lobster', cursive;
-    font-size: 50px;
     color: #000000;
     text-align: center;
+    padding-bottom: 40px;
+    font-size: 30px;
 }
 
 #galleryParagraph p{
-    font-size: 15px;
-    font-family: 'Hind';
-    font-weight: normal;
-    font-style: normal;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    padding-bottom: 10px;
 }
 
 #slideshow {
@@ -250,26 +270,19 @@ width: 100%;
   max-width:100%;
   max-height:100%;
 }
+/******************************/
 /*End - Photo Carroussel Panel*/
+/******************************/
 
+/***********************/
 /*Begin - Contact Panel*/
+/***********************/
 .contactPanel {
-    /*color:#fff;
-    height : 75%;
-    width : 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: url(../Content/img/contact-us-panel.jpg) no-repeat center center;*/
-
     background: url(../Content/img/contact-us-panel.jpg) no-repeat;
-    background-size: cover;
     height: 75%;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .contactPanel .container{
@@ -293,9 +306,13 @@ width: 100%;
     margin: 0 auto;
     min-width: 100%;
 }
+/*********************/
 /*End - Contact Panel*/
+/*********************/
 
+/*************************/
 /*Start - Spinner Loading*/
+/*************************/
 #loading
 {
     display:none;
@@ -327,11 +344,13 @@ width: 100%;
     font-size:larger;
     padding-top:80px;
 }
+/***********************/
 /*End - Spinner Loading*/
+/***********************/
 
-
+/*********************/
 /*Start - Modal panel*/
-/*MODAL*/
+/*********************/
 .modal-content {
     overflow:hidden;
     -webkit-border-radius: 20px;
@@ -353,4 +372,87 @@ width: 100%;
     width: 150px;
     height: 150px;
 }
+/*******************/
 /*End - Modal panel*/
+/*******************/
+
+
+/****************/
+/*Begin - Footer*/
+/****************/
+
+footer {
+    background-color: #0B6EA7;
+    height: 50px;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 18px;
+}
+
+/**************/
+/*End - Footer*/
+/**************/
+
+/***********************/
+/*Begin - Localisation*/
+/***********************/
+#LocalisationPanel .container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    background: linear-gradient( rgba(156, 156, 240, 0.5), rgba(140, 236, 140, 0.5)), url('/Content/img/localisationPanel.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 75vh;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#LocalisationPanel .container h2{
+    border: 2px solid #000000;
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    padding: 15px 35px;
+}
+
+#map {
+    height: 400px;
+    width: 750px;
+    margin-top: 100px;
+    box-shadow: 0 0 75px rgba(0, 0, 0, 0.6);
+}
+
+
+#laReunionPanel .container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 75vh;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#laReunionPanel .container h2{
+    border: 2px solid #000000;
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    padding: 15px 35px;
+}
+
+/*********************/
+/*End - Localisation*/
+/*********************/

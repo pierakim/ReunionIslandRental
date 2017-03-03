@@ -143,6 +143,7 @@
     <Content Include="Content\img\ipad.png" />
     <Content Include="Content\img\kitchen.JPG" />
     <Content Include="Content\img\linkedin2-128.png" />
+    <Content Include="Content\img\localisationPanel.jpg" />
     <Content Include="Content\img\outdoor01.JPG" />
     <Content Include="Content\img\outdoor02.JPG" />
     <Content Include="Content\img\outdoor03.JPG" />
@@ -157,6 +158,9 @@
     <Content Include="Content\img\SleepingRoom.png" />
     <Content Include="Content\img\twitter-128.png" />
     <Content Include="Content\img\Wifi.png" />
+    <Content Include="Content\img\WoodBackground.jpg" />
+    <Content Include="Content\img\WoodBackground2.jpg" />
+    <Content Include="Content\img\WoodBackground3.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
@@ -244,6 +248,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LocalisationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -258,6 +263,7 @@
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Views\Home\_Contact.cshtml" />
+    <Content Include="Views\Localisation\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

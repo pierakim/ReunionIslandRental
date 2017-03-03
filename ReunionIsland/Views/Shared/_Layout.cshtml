@@ -30,10 +30,13 @@
                     <a class="effectMenu" href="#Acceuil">Accueil</a>
                 </li>
                 <li>
-                    <a class="effectMenu" href="#ScrollToServices">Logement</a>
+                    <a class="effectMenu" href="#ScrollToServices">Localisation</a>
                 </li>
                 <li>
-                    <a class="effectMenu" href="#ScrollToContact">Contact</a>
+                    <a class="effectMenu" href="#ScrollToContact">La Maison</a>
+                </li>
+                <li>
+                    <a class="effectMenu" href="#ScrollToContact">Tarifs</a>
                 </li>
             </ul>
         </div>
@@ -41,9 +44,10 @@
 </div>
 
 @RenderBody()
-<hr/>
 <footer>
-    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+    <div class="container">
+        <p>&copy; @DateTime.Now.Year - www.VisitLaReunion.com</p>
+    </div>
 </footer>
 
 @*JS Bundle*@
@@ -303,4 +307,23 @@
                 });
         });
     });
+</script>
+
+
+
+<script>
+    function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbunbKx8vsHKrNWwhJlsZmSCDawGDeqY8&callback=initMap">
 </script>
