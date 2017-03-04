@@ -93,9 +93,14 @@ width: 100%;
 }
 
 #briefDescriptionPhoto {
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
+#briefDescriptionPhoto .container {
     background-image:url(../Content/img/frontHome.jpg);
     height: 500px;
-
 }
 
 #briefDescriptionText {
@@ -295,11 +300,14 @@ width: 100%;
 }
 
 .contactPanel .container h2{
+    border: 2px solid #FFF;
     margin: 0 auto;
     font-family: 'Lobster', cursive;
     font-size: 65px;
     color: #000000;
     text-align: center;
+    padding: 15px 35px;
+    color: #FFF;
 }
 
 #ContactForm {
@@ -496,3 +504,9 @@ footer .container{
 /*********************/
 /*End - La Maison*/
 /*********************/
+
+
+.hideme
+{
+    
+}

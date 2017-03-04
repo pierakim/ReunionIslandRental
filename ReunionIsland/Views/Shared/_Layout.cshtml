@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="effectMenu" href="#Acceuil">Accueil</a>
+                    <a class="effectMenu" href="@Url.Action("Index", "Home")">Accueil</a>
                 </li>
                 <li>
                     <a class="effectMenu" href="@Url.Action("Index", "Localisation")">Localisation</a>
@@ -36,7 +36,7 @@
                     <a class="effectMenu" href="@Url.Action("Index", "PhotoGallery")">La Maison</a>
                 </li>
                 <li>
-                    <a class="effectMenu" href="#ScrollToContact">Tarifs</a>
+                    <a class="effectMenu" href="#Tarifs">Tarifs</a>
                 </li>
             </ul>
         </div>
@@ -228,11 +228,11 @@
 
     setInterval(function () {
         $('#slideshow > div:first')
-          .fadeOut(1000)
-          .next()
-          .fadeIn(1000)
-          .end()
-          .appendTo('#slideshow');
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
     }, 3000);
 </script>
 
@@ -332,6 +332,29 @@
 
 <script type="text/javascript">
     jQuery(document).ready(function(){
-	    jQuery("#gallery").unitegallery();
+        jQuery("#gallery").unitegallery();
+    });
+</script>
+
+@*<script>
+    $(window).scroll(function () {
+        $("#welcomePanel .container h2").css("opacity", 1 - $(window).scrollTop() / 500);
+
+
+        var bottom_of_object = $("#facilities .container h2").offset().top + $("#facilities .container h2").outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        /* If the object is completely visible in the window, fade it it */
+        if (bottom_of_window > bottom_of_object) {
+
+            $("#facilities .container h2").animate({ 'opacity': '1' }, 1000);
+
+        }
+
+    });
+</script>*@
+
+<script>
+    AOS.init({
     });
 </script>

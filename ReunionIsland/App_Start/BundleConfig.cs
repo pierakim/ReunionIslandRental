@@ -19,7 +19,8 @@ namespace ReunionIsland.Web
                                                 //"~/Scripts/skrollr.js",
                                                 "~/Scripts/stellar.js",
                                                 "~/Scripts/unitegallery.js",
-                                                "~/Scripts/ug-theme-default.js"
+                                                "~/Scripts/ug-theme-default.js",
+                                                "~/Scripts/aos.js"
                                                 );
             bundles.Add(jsBundles);
 
@@ -30,7 +31,8 @@ namespace ReunionIsland.Web
                                                 "~/Content/animate.css",
                                                 "~/Content/Site.css",
                                                 "~/Content/unite-gallery.css",
-                                                "~/Content/ug-theme-default.css"
+                                                "~/Content/ug-theme-default.css",
+                                                "~/Content/aos.css"
                                                 );
             bundles.Add(cssBundles);
 
