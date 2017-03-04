@@ -17,7 +17,10 @@ namespace ReunionIsland.Web
                                                 "~/Scripts/jquery.validate.unobtrusive.js",
                                                 "~/Scripts/spin.js",
                                                 //"~/Scripts/skrollr.js",
-                                                "~/Scripts/stellar.js");
+                                                "~/Scripts/stellar.js",
+                                                "~/Scripts/unitegallery.js",
+                                                "~/Scripts/ug-theme-default.js"
+                                                );
             bundles.Add(jsBundles);
 
             //CSS Bundle
@@ -25,7 +28,10 @@ namespace ReunionIsland.Web
                                                 "~/Content/bootstrap.min.css",
                                                 "~/Content/font-awesome.min.css",
                                                 "~/Content/animate.css",
-                                                "~/Content/Site.css");
+                                                "~/Content/Site.css",
+                                                "~/Content/unite-gallery.css",
+                                                "~/Content/ug-theme-default.css"
+                                                );
             bundles.Add(cssBundles);
 
             BundleTable.EnableOptimizations = true;

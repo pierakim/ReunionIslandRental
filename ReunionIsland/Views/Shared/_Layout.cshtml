@@ -30,10 +30,10 @@
                     <a class="effectMenu" href="#Acceuil">Accueil</a>
                 </li>
                 <li>
-                    <a class="effectMenu" href="#ScrollToServices">Localisation</a>
+                    <a class="effectMenu" href="@Url.Action("Index", "Localisation")">Localisation</a>
                 </li>
                 <li>
-                    <a class="effectMenu" href="#ScrollToContact">La Maison</a>
+                    <a class="effectMenu" href="@Url.Action("Index", "PhotoGallery")">La Maison</a>
                 </li>
                 <li>
                     <a class="effectMenu" href="#ScrollToContact">Tarifs</a>
@@ -326,4 +326,12 @@
 </script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbunbKx8vsHKrNWwhJlsZmSCDawGDeqY8&callback=initMap">
+</script>
+
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+	    jQuery("#gallery").unitegallery();
+    });
 </script>

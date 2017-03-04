@@ -142,6 +142,7 @@
     <Content Include="Content\img\intro-code_01.jpeg" />
     <Content Include="Content\img\ipad.png" />
     <Content Include="Content\img\kitchen.JPG" />
+    <Content Include="Content\img\laMaisonPanel.jpg" />
     <Content Include="Content\img\linkedin2-128.png" />
     <Content Include="Content\img\localisationPanel.jpg" />
     <Content Include="Content\img\outdoor01.JPG" />
@@ -203,6 +204,8 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="Content\ug-theme-default.css" />
+    <Content Include="Content\unite-gallery.css" />
     <Content Include="EmailTemplate\EmailTemplate.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -239,6 +242,8 @@
     <Content Include="Scripts\skrollr.js" />
     <Content Include="Scripts\spin.js" />
     <Content Include="Scripts\stellar.js" />
+    <Content Include="Scripts\ug-theme-default.js" />
+    <Content Include="Scripts\unitegallery.js" />
     <Content Include="Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -249,6 +254,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LocalisationController.cs" />
+    <Compile Include="Controllers\PhotoGalleryController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -264,6 +270,7 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Views\Home\_Contact.cshtml" />
     <Content Include="Views\Localisation\Index.cshtml" />
+    <Content Include="Views\PhotoGallery\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

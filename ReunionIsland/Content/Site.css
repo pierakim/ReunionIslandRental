@@ -42,7 +42,7 @@ width: 100%;
 /*Begin - Welcome Panel*/
 /***********************/
 #welcomePanel {
-    background: linear-gradient( rgba(255, 255, 153, 0.5), rgba(77, 121, 255, 0.5)), url('/Content/img/ReunionIsland.jpg') no-repeat;
+    background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(77, 121, 255, 0.7)), url('/Content/img/ReunionIsland.jpg') no-repeat;
     background-size: cover;
     height: 100%;
     display: flex;
@@ -455,4 +455,44 @@ footer .container{
 
 /*********************/
 /*End - Localisation*/
+/*********************/
+
+/***********************/
+/*Begin - La Maison*/
+/***********************/
+#welcomePhotoGalleryPanel .container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    background: linear-gradient( rgba(155, 68, 255, 0.5),rgba(255, 73, 73, 0.2), rgba(0, 0, 0, 0.5)), url('/Content/img/laMaisonPanel.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 75vh;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#welcomePhotoGalleryPanel .container h2{
+    border: 2px solid #000000;
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    padding: 15px 35px;
+}
+
+#photoGalleryPanel .container {
+    width: 100%;
+    padding: 150px;
+}
+
+#photoGalleryPanel .container #gallery{
+    margin: auto;
+
+}
+
+/*********************/
+/*End - La Maison*/
 /*********************/
