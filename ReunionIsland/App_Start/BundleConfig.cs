@@ -16,7 +16,6 @@ namespace ReunionIsland.Web
                                                 "~/Scripts/jquery.validate.js",
                                                 "~/Scripts/jquery.validate.unobtrusive.js",
                                                 "~/Scripts/spin.js",
-                                                //"~/Scripts/skrollr.js",
                                                 "~/Scripts/stellar.js",
                                                 "~/Scripts/unitegallery.js",
                                                 "~/Scripts/ug-theme-default.js",
