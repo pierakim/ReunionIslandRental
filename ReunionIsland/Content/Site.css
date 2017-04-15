@@ -548,12 +548,12 @@ footer .container{
 }
 .vNav a:hover {
     border-radius: 50%;
-    background-color: black;
+    background-color: white;
     text-decoration: none;
 }
 .vNav a.active {
     border-radius: 50%;
-    background-color: white;
+    background-color: black;
     text-decoration: none;
 }
 .label {
