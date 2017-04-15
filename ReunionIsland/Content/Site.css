@@ -292,7 +292,7 @@ width: 100%;
 /***********************/
 .contactPanel {
     background: url(../Content/img/contact-us-panel.jpg) no-repeat;
-    height: 75%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
