@@ -94,16 +94,9 @@
 
 @*CAROUSSEL PHOTO GALLERY (auto run)*@
 <script>
-    $("#slideshow > div:gt(0)").hide();
-
-    setInterval(function () {
-        $('#slideshow > div:first')
-            .fadeOut(1000)
-            .next()
-            .fadeIn(1000)
-            .end()
-            .appendTo('#slideshow');
-    }, 3000);
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
 </script>
 
 @*MODAL POP UP*@
@@ -160,17 +153,10 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbunbKx8vsHKrNWwhJlsZmSCDawGDeqY8&callback=initMap">
 </script>
 
-
-@*Unite Gallery for elaborated photo Gallery*@
-<script type="text/javascript">
-    jQuery(document).ready(function(){
-        jQuery("#gallery").unitegallery();
-    });
-</script>
-
 @*AOS special effect framework*@
 <script>
     AOS.init({
+        //disable: window.innerWidth < 1024
     });
 </script>
 

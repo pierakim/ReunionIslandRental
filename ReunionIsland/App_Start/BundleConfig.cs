@@ -17,8 +17,7 @@ namespace ReunionIsland.Web
                                                 "~/Scripts/jquery.validate.unobtrusive.js",
                                                 "~/Scripts/spin.js",
                                                 "~/Scripts/stellar.js",
-                                                "~/Scripts/unitegallery.js",
-                                                "~/Scripts/ug-theme-default.js",
+                                                 "~/Scripts/responsiveSlides.min.js",
                                                 "~/Scripts/aos.js"
                                                 );
             bundles.Add(jsBundles);
@@ -29,8 +28,6 @@ namespace ReunionIsland.Web
                                                 "~/Content/font-awesome.min.css",
                                                 "~/Content/animate.css",
                                                 "~/Content/Site.css",
-                                                "~/Content/unite-gallery.css",
-                                                "~/Content/ug-theme-default.css",
                                                 "~/Content/aos.css"
                                                 );
             bundles.Add(cssBundles);
