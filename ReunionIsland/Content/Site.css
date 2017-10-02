@@ -57,6 +57,7 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center center;
 }
 
 #welcomePanel .container{
@@ -85,70 +86,88 @@ width: 100%;
 /*********************************/
 /*Begin - Brief description panel*/
 /*********************************/
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+
+.main{
+    background: url('/Content/img/WoodBackground3.jpg') no-repeat;
+    background-size: cover;
 }
 
-#briefDescription {
-   background: url('/Content/img/WoodBackground3.jpg') no-repeat;
-   background-size: cover;
+.nopadding {
+    padding:0 !important;
+    margin:0 !important;
 }
 
-#briefDescription .container{
-    text-align: center;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-right: 0;
-    padding-left: 0;
-}
-
-#briefDescription .container .row{
-    display:flex;
-    width:100%;
-}
-
-#briefDescriptionPhoto {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-#briefDescriptionPhoto .container {
-    background-image:url(../Content/img/frontHome.jpg);
-    height: 500px;
-}
-
-#briefDescriptionText {
-    display: flex;
-    align-items: center;
-}
-
-#briefDescriptionText .container{
+.card{
     border: 0.1px solid #000000;
+    text-align: center;
+    margin:15px;
 }
 
-#briefDescriptionText h3{
+.card h3{
     font-family: 'Lobster', cursive;
-    padding-bottom: 40px;
-    font-size: 30px;
+    font-size:30px;
+    padding-bottom:40px;
 }
 
-#briefDescriptionText p{
-    margin: 0 auto;
-    font-family: 'Poppins';
-    padding-bottom: 10px;
+.card p{
+    font-family: 'Poppins', cursive;
+    margin:0 auto;
+    padding-bottom:10px;
 }
 
-#briefDescriptionText a{
-    text-decoration: none;
+@media (min-width: 992px) {
+    #photoCarroussel .row {
+        display: flex;
+        align-items: center;
+    }
+
+    #briefDescription .row {
+        display: flex;
+        align-items: center;
+    }
+} 
+ 
+@media (min-width: 1200px){
+    #photoCarroussel .row {
+        display: flex;
+        align-items: center;
+    }
+
+    #briefDescription .row {
+        display: flex;
+        align-items: center;
+    }
 }
-#para {
-    padding-bottom: 30px;
+
+@media (max-width: 767px) {
+    #photoCarroussel .noDisplayForMobile{
+        display:none;
+    }
+
+    #briefDescription .noDisplayForMobile{
+        display:none;
+    }
+
+    .pins{
+        display: flex;
+    }
 }
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    #photoCarroussel .noDisplayForMobile{
+        display:none;
+    }
+
+    #briefDescription .noDisplayForMobile{
+        display:none;
+    }
+
+    .pins{
+        display: flex;
+    }
+}
+
 /*******************************/
 /*End - Brief description panel*/
 /*******************************/
@@ -160,42 +179,41 @@ width: 100%;
     background: linear-gradient( rgba(255, 128, 128, 0.3), rgba(255, 255, 153, 0.3),rgba(179, 255, 179, 0.3)), url('/Content/img/reunionIslandNight.jpg') no-repeat;
     background-size: cover;
     height: 100%;
+
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one 🙂       */
+    display: flex;
     align-items: center;
-    justify-content: center;
+    
 }
 
 #facilities .container{
-    min-height: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    text-align:center;
 }
 
-#facilities .container .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-#card{
-    margin:0 50px 0 50px;
+#facilities .container > .row{
     padding:25px;
 }
 
-#card .img{
-    height:50px;
-    width: 50px;
+.pins{
+    display: flex;
+}
+
+.pins img{
+    margin: auto;
 }
 
 #facilities .container h2{
-    margin: 0 auto;
+    border: 2px solid #000000;
     font-family: 'Lobster', cursive;
     font-size: 65px;
     color: #000000;
-    text-align: center;
-    border: 2px solid #000000;
-    padding: 15px 35px;
+}
+
+#facilities .container h4{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #000000;
 }
 
 /************************/
@@ -208,69 +226,8 @@ width: 100%;
 /********************************/
 /*Begin - Photo Carroussel Panel*/
 /********************************/
-#photoCarroussel{
-    background: url(../Content/img/WoodBackground2.jpg) no-repeat;
-    background-size: cover;
-}
-
-#photoCarroussel .container{
-    /*display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;*/
-    width: 100%;
-}
-
-#photoCarroussel .container .row{
-    display: flex;
-    align-items: center;
-    margin: 80px auto;
-}
-
-#galleryParagraph{
-    border: 0.1px solid #000000;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#galleryParagraph h2{
-    margin: 0 auto;
-    font-family: 'Lobster', cursive;
-    color: #000000;
-    text-align: center;
-    padding-bottom: 40px;
-    font-size: 30px;
-}
-
-#galleryParagraph p{
-    margin: 0 auto;
-    font-family: 'Poppins';
-    padding-bottom: 10px;
-}
-
-#slideshow {
-  /*position: relative;*/
-  /*width: 650px;*/
-  height: 500px;
-  padding: 10px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
-}
-
-
-#slideshow > div {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-}
-
-#slideshow img {
-  max-width:100%;
-  max-height:100%;
+.carroussel{
+    padding:2%;
 }
 
 .rslides {
@@ -299,11 +256,11 @@ width: 100%;
 
 .rslides img {
   display: block;
-  height: auto;
+  height: 100%;
   float: left;
   width: 100%;
   border: 0;
-  }
+}
 
 /******************************/
 /*End - Photo Carroussel Panel*/
